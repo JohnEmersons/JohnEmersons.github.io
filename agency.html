@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
 
-<!-- Mirrored from www.spab-rice.com/themeforest/dani/demo/portfolio-smartscroll-col3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 06:12:13 GMT -->
+<!-- Mirrored from www.spab-rice.com/themeforest/dani/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 06:03:27 GMT -->
 <head>
 
     <!-- DEFAULT META TAGS -->
@@ -17,14 +17,35 @@
     <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all" />
     <link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="revolution-slider-main-css" href="files/revolution/css/settings.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="revolution-slider-layer-css" href="files/revolution/css/layers.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="revolution-slider-nav-css" href="files/revolution/css/navigation.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="lightcase-css" href="files/css/lightcase.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="owlcarousel-css" href="files/css/owl.carousel.css" type="text/css" media="all" />
     <link rel="stylesheet" id="responisve-style-css" href="files/css/mqueries.css" type="text/css" media="all" />
     
     <!-- FAVICON -->
     <link rel="shortcut icon" href="files/uploads/favicon.png"/>
     
     <!-- DOCUMENT TITLE -->
-    <title>Smart Scroll Col 3 | Dani | A Storming Portfolio Template</title>
-
+    <title>Home Agency | Dani | A Storming Portfolio Template</title>
+	
+<!-- SCRIPTS -->
+<script src="files/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="files/js/plugins.js"></script>
+<script type="text/javascript" src="files/revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
+<script type="text/javascript" src="files/revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
+<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="files/js/tweenMax.js"></script>
+<script type="text/javascript" src="files/js/jquery.smartscroll.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.owl.carousel.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.lightcase.min.js"></script>
+<script type="text/javascript" src="files/js/script.js"></script>
+<!-- SCRIPTS -->
 </head>
 
 <body>
@@ -44,7 +65,7 @@
 <div id="page-content">
 	
 	<!-- HEADER -->
-	<header id="header">        
+	<header id="header" class="wrapper transparent text-light not-sticky">        
 		<div class="header-inner clearfix">
 			
             <!-- LOGO -->
@@ -161,11 +182,62 @@
 		</div> <!-- END .header-inner -->
 	</header>
 	<!-- HEADER end -->
+    
+    <!-- HERO  -->
+	<section id="hero" class="hero-auto">
+        
+        <div class="revolution-slider-wrapper">
+            <div id="revolutionslider1" class="revolution-slider" data-version="5.0">
+                <ul>
+                    
+       	
+                       
+                	
+                    <li class="text-dark" data-transition="parallaxhorizontal" data-masterspeed="1200">			
+                        <!-- MAIN IMAGE -->
+                        <img src="files/uploads/agency-hero-3.jpg"  alt=""  width="1920" height="1280">
+                        
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption dani-caption"				
+                            data-x="left" data-hoffset="['100',80',60','30']"
+                            data-y="center" data-voffset="0"
+                            data-basealign="slide"
+                            data-fontsize="['60','60','54','38']"
+							data-lineheight="['74','74','66','50']"
+							data-width="full"
+							data-height="none"
+							data-whitespace="normal"
+                            data-transform_idle="o:1"	
+                            data-transform_in="o:0;s:500;e:Power1.easeInOut;" 
+                            data-transform_out="o:0" 							 
+                            data-start="1000"
+                            data-responsive_offset="on">
+                            <strong><em>Balance</em></strong> is <br>our secret sauce
+                        </div>
+                    </li> <!-- END second slide -->
+                    
+                    
+              	</ul>				
+             </div><!-- END .revolution-slider -->
+       	</div> <!-- END .revolution-slider-wrapper -->
+        
+    </section>
+    <!-- HERO -->
 	
 	<!-- PAGEBODY -->
 	<section id="page-body">
-    	               
-        <div id="smartscroll" class="smartscroll-grid portfolio-container portfolio-animation" data-columns="3">
+    	<div class="spacer-big"></div>
+                        
+        <div class="wrapper align-center">
+            <h1>We're a <strong><em>digital studio</em></strong> that believe in the power of <strong><em>great ideas</em></strong>.</h1>
+            <div class="spacer-medium"></div>
+            <h5 class="title-alt"><strong>See our Showreel</strong></h5>
+            <p><a class="sr-button-icon button-medium" href="http://player.vimeo.com/video/129976307" data-rel="lightcase"><i class="fa fa-play"></i></a></p>
+        </div> <!-- END .wrapper -->
+        
+        <div class="spacer-big"></div>
+        
+        <div id="smartscroll" class="smartscroll-grid portfolio-container portfolio-animation" data-columns="2">
         	
             <div class="smartscroll-item portfolio-item portfolio-smart-item">
                	<div class="portfolio-item-inner item-inner">
@@ -173,7 +245,7 @@
                         <img src="files/uploads/portfolio-thumb-smart-6.jpg" alt="SEO">
                         <div class="overlay-caption bottom align-left">
                             <span class="caption-sub portfolio-category text-animation">Branding</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Belyse</strong></h4>
+                            <h2 class="caption-name portfolio-name text-animation"><strong>Belyse</strong></h2>
                         </div>
                     </a>
                 </div>
@@ -185,32 +257,20 @@
                         <img src="files/uploads/portfolio-thumb-smart-2.jpg" alt="SEO">
                         <div class="overlay-caption bottom align-left">
                             <span class="caption-sub portfolio-category text-animation">Web Design</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Punk<br>Bluetooth Speaker</strong></h4>
+                            <h2 class="caption-name portfolio-name text-animation"><strong>Punk<br>Bluetooth Speaker</strong></h2>
                         </div>
                     </a>
                 </div>
             </div>
-            
             
             <div class="smartscroll-item portfolio-item portfolio-smart-item">
                	<div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover text-light">
+                        
                         <img src="files/uploads/portfolio-thumb-smart-8.jpg" alt="SEO">
                         <div class="overlay-caption bottom align-left">
                             <span class="caption-sub portfolio-category text-animation">Web Design</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Central Station</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover text-dark">
-                        <img src="files/uploads/portfolio-thumb-smart-mnl-7.jpg" alt="SEO">
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Digital</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Globetouch</strong></h4>
+                            <h2 class="caption-name portfolio-name text-animation"><strong>Central Station</strong></h2>
                         </div>
                     </a>
                 </div>
@@ -222,7 +282,7 @@
                         <img src="files/uploads/portfolio-thumb-smart-10.jpg" alt="SEO">
                         <div class="overlay-caption bottom align-left">
                             <span class="caption-sub portfolio-category text-animation">Art Direction</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Five Chair</strong></h4>
+                            <h2 class="caption-name portfolio-name text-animation"><strong>Five Chair</strong></h2>
                         </div>
                     </a>
                 </div>
@@ -234,110 +294,130 @@
                         <img src="files/uploads/portfolio-thumb-smart-5.jpg" alt="SEO">
                         <div class="overlay-caption bottom align-left">
                             <span class="caption-sub portfolio-category text-animation">Branding</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Hang<br>Konsten</strong></h4>
+                            <h2 class="caption-name portfolio-name text-animation"><strong>Hang<br>Konsten</strong></h2>
                         </div>
                     </a>
                 </div>
             </div>
-            
-            <div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                        <img src="files/uploads/portfolio-thumb-smart-9.jpg" alt="SEO">
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Branding</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Band & Roll</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover">
-                        <img src="files/uploads/portfolio-thumb-smart-4.jpg" alt="SEO">
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Web Design</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Koke</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                        <div class="overlay-media"><img src="files/uploads/portfolio-thumb-smart-1.jpg" alt="SEO"></div>
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Art Direction</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>All about <br/>Shaping</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div> 
                        
            	<div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover">
-                        <img src="files/uploads/portfolio-thumb-smart-mnl-3.jpg" alt="SEO">
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Branding</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Belyse</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-           
-           	<div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                        <img src="files/uploads/portfolio-thumb-smart-7.jpg" alt="SEO">
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Branding</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>The Bookbinding</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover">
-                        <img src="files/uploads/portfolio-thumb-smart-mnl-11.jpg" alt="SEO">
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Photography</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>White Shirt</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="smartscroll-item portfolio-item portfolio-smart-item">
-               	<div class="portfolio-item-inner item-inner">
-                    <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                        <img src="files/uploads/portfolio-thumb-smart-11.jpg" alt="SEO">
-                        <div class="overlay-caption bottom align-left">
-                            <span class="caption-sub portfolio-category text-animation">Art Direction</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Film Noir</strong></h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="smartscroll-item portfolio-item portfolio-smart-item">
                	<div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover">
                         <img src="files/uploads/portfolio-thumb-smart-3.jpg" alt="SEO">
                         <div class="overlay-caption bottom align-left">
                             <span class="caption-sub portfolio-category text-animation">Art Direction</span>
-                            <h4 class="caption-name portfolio-name text-animation"><strong>Barrel Headphones</strong></h4>
+                            <h2 class="caption-name portfolio-name text-animation"><strong>Barrel Headphones</strong></h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="smartscroll-item portfolio-item portfolio-smart-item">
+               	<div class="portfolio-item-inner item-inner">
+                    <a href="portfolio-single-classic.html" class="thumb-hover text-dark">
+                        <img src="files/uploads/portfolio-thumb-smart-mnl-7.jpg" alt="SEO">
+                        <div class="overlay-caption bottom align-left">
+                            <span class="caption-sub portfolio-category text-animation">Branding</span>
+                            <h2 class="caption-name portfolio-name text-animation"><strong>Globetouch</strong></h2>
                         </div>
                     </a>
                 </div>
             </div>
                                        
-       </div> <!-- END .smart-scroll -->
+       	</div> <!-- END .smart-scroll -->
+       
+       	<div class="spacer-big"></div>
+       
+       	<div class="wrapper">
+       
+       		<div class="column-section clearfix">
+            	<div class="column one-fourth align-center">
+                	<i class="ion ion-ios-analytics ion-6x"></i>
+                	<h3>Modern Layout</h3>
+                    <p>When, while the lovely valley teems with vapour around me, and meridian sun strikes the upper surface.</p>
+                </div>
+                <div class="column one-fourth align-center">
+                	<i class="ion ion-ios-monitor-outline ion-6x"></i>
+                	<h3>Digital Branding</h3>
+                    <p>I throw myself down among the tall grass by the trickling stream as I lie close to the earth.</p>
+                </div>
+                <div class="column one-fourth align-center">
+                	<i class="ion ion-ios-settings ion-6x"></i>
+                	<h3>Great Options</h3>
+                    <p>Oh, would I could describe these conceptions, could impress upon paper all that is living so full.</p>
+                </div>
+                <div class="column one-fourth last-col align-center">
+                	<i class="ion ion-ios-speedometer-outline ion-6x"></i>
+                	<h3>Trouble Shoot</h3>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet of spring which I enjoy.</p>
+                </div>
+            </div>
+       
+       	</div> <!-- END .wrapper -->
+       
+       	<div class="spacer-big"></div>
+        
+        <div class="fullwidth-section text-light" style="background:url(files/uploads/pattern.jpg) center center; -webkit-background-size:46px 7px; -moz-background-size:46px 7px; -o-background-size:46px 7px; background-size:46px 7px;">
+        	<div class="fullwidth-content">
                
+              	<div class="owl-slider nav-light content-slider">
+                    <div>
+                        <blockquote class="align-center">
+                            <p>In any moment of decision, the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.</p>
+                            <cite>Theodore Roosevelt</cite>
+                        </blockquote>
+                    </div>
+                    <div>
+                        <blockquote class="align-center">
+                            <p>As a designer there are not many other templates that comes close to this. This template really understands the main purposes of webdesign.</p>
+                            <cite>Patrick Hamilton</cite>
+                        </blockquote>
+                    </div>
+            	</div>
+               
+            </div>
+        </div> <!-- END .fullwidth-section -->
+        
+        <div class="spacer-big"></div>
+        
+        <div class="wrapper">
+        
+        	<h2 class="align-center">We work with people who value their craft<br>as much as we value ours.</h2>
+            
+            <div class="column-section clearfix">
+            	<div class="column one-fourth align-center">
+                	<img src="files/uploads/logo-spotify.png" srcset="files/uploads/logo-spotify.png 1x, files/uploads/logo-spotify@2x.png 2x" alt="SEO">
+                </div>
+                <div class="column one-fourth align-center">
+                	<img src="files/uploads/logo-fwa.png" srcset="files/uploads/logo-fwa.png 1x, files/uploads/logo-fwa@2x.png 2x" alt="SEO">
+                </div>
+                <div class="column one-fourth align-center">
+                	<img src="files/uploads/logo-google.png" srcset="files/uploads/logo-google.png 1x, files/uploads/logo-google@2x.png 2x" alt="SEO">
+                </div>
+                <div class="column one-fourth last-col align-center">
+                	<img src="files/uploads/logo-wordpress.png" srcset="files/uploads/logo-wordpress.png 1x, files/uploads/logo-wordpress@2x.png 2x" alt="SEO">
+                </div>
+            </div>
+            
+            <div class="column-section clearfix">
+            	<div class="column one-fourth align-center">
+                	<img src="files/uploads/logo-yt.png" srcset="files/uploads/logo-yt.png 1x, files/uploads/logo-yt@2x.png 2x" alt="SEO">
+                </div>
+                <div class="column one-fourth align-center">
+                	<img src="files/uploads/logo-ableton.png" srcset="files/uploads/logo-ableton.png 1x, files/uploads/logo-ableton@2x.png 2x" alt="SEO">
+                </div>
+                <div class="column one-fourth align-center">
+                	<img src="files/uploads/logo-ni.png" srcset="files/uploads/logo-ni.png 1x, files/uploads/logo-ni@2x.png 2x" alt="SEO">
+                </div>
+                <div class="column one-fourth last-col align-center">
+                	<img src="files/uploads/logo-sass.png" srcset="files/uploads/logo-sass.png 1x, files/uploads/logo-sass@2x.png 2x" alt="SEO">
+                </div>
+            </div>
+                        
+       	</div> <!-- END .wrapper -->
+        
+        <div class="spacer-big"></div>
+                         
  	</section>
 	<!-- PAGEBODY -->
     
@@ -400,16 +480,9 @@
 </div>
 <!-- PAGE CONTENT End -->
 
-<!-- SCRIPTS -->
-<script src="files/js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="files/js/plugins.js"></script>
-<script type="text/javascript" src="files/js/tweenMax.js"></script>
-<script type="text/javascript" src="files/js/jquery.smartscroll.min.js"></script>
 
-<script type="text/javascript" src="files/js/script.js"></script>
-<!-- SCRIPTS -->
 
 </body>
 
-<!-- Mirrored from www.spab-rice.com/themeforest/dani/demo/portfolio-smartscroll-col3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 06:12:22 GMT -->
+<!-- Mirrored from www.spab-rice.com/themeforest/dani/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 06:04:49 GMT -->
 </html>
