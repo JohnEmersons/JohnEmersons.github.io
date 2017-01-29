@@ -1,0 +1,207 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ .single-slide-heading h1 {
+  font-size: 70px;
+}
+.slider-button a i {
+  height: 120px;
+  padding: 44px;
+  width: 120px;
+}
+.single-slide-heading {
+  bottom: 10px;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (max-width: 768px) { 
+.single-slide-heading h1 {
+  font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.discover-feature {
+    text-align: center;
+}
+.feature-icon {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+}
+.view-button {
+    text-align: center;
+}
+.feature-bottom-icon-head > img {
+    display: inline-block;
+    float: none;
+}
+.feature-bottom-icon-head > h6 {
+    display: inline-block;
+}
+.feature-bottom-icon-head {
+    text-align: center;
+}
+
+.rapture-startup-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+}
+
+.feature-bottom-content {
+  background-color: rgba(0, 0, 0, 0.92);
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding: 40px 40px 0;
+}
+ 
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .single-slide-heading h1 {
+  font-size: 70px;
+}
+.slider-button {
+  left: 40%;
+  right: 40%;
+}
+.logo p {
+  font-size: 15px;
+}
+
+.navbar-nav > li > a{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.getIn-touch-button a {
+  font-size: 10px;
+  padding: 10px;
+}
+ 
+.discover-feature {
+  margin-bottom: 100px;
+  padding-top: 30px;
+}
+
+.rapture-startup-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+}
+
+.feature-bottom-content {
+  background-color: rgba(0, 0, 0, 0.92);
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding: 40px 40px 0;
+}
+.feature-bottom-right {
+  padding-top: 0;
+}
+.video-text h4 {
+  font-size: 18px;
+}
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.slider-button a i {
+  font-size: 30px;
+  height: 90px;
+  padding: 30px;
+  width: 90px;
+}
+.slider-button {
+  left: 40%;
+  right: 40%;
+}
+.mainmenu {
+  transition:all .5s;
+  float: left;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.mainmenu ul.navbar-nav li a {
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+  padding: 15px 20px;
+}
+.mainmenu ul.navbar-nav {
+  background: #d34b25 none repeat scroll 0 0;
+  margin: 0;
+}
+.slider-area {
+  position: relative;
+}
+button.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+
+
+.single-slide-heading h1 {
+  font-size: 40px;
+}
+.getIn-touch-button {
+  display: none;
+}
+.slide-text p {
+  font-size: 16px;
+}
+
+.logo p {
+  font-size: 20px;
+}
+
+.navbar-toggle {
+  margin-top: -50px;
+}
+.feature-bottom-right {
+  padding-top: 0;
+}
+.single-video img {
+  width: 100%;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 640px) { 
+.single-slide-heading h1 {
+  font-size: 40px;
+}
+.header-area{
+  background-color: background;
+}
+
+.mainmenu {
+  padding-top: 0;
+}
+
+.navbar-toggle {
+  margin-top: -60px;
+}
+
+.logo p {
+  font-size: 25px;
+  padding: 20px 0 10px;
+}
+
+.discover-feature {
+  margin-bottom: 50px;
+}
+.feature-bottom-right {
+  padding-top: 0;
+}
+.single-video img {
+  width: 100%;
+}
+
+}

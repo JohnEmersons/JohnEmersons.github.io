@@ -1,0 +1,416 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid ;}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	font-size:18px;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background: none;
+  text-decoration: none;
+}
+
+
+
+/* default style */
+.single-slide-heading h1 span,
+.logo p span, 
+.slide-text p, 
+.createApps-content h2 span,
+.discover-feature a span,
+.feature-bottom-content h2 span,
+.bestOf-rapture-text h2 span,
+.subscribe-area h3 span,
+.copyright-content h4 span{
+    font-family: 'Droid Serif', serif;
+	font-style:italic;
+}
+.createApps-content h2, 
+.feature-bottom-content h2, 
+.bestOf-rapture-text h2{
+  font-size: 42px;
+  font-weight: 400;
+}
+.createApps-content h2, 
+.bestOf-rapture-text h2, 
+.rapture-startup-content h2{
+	color: #222328;
+	margin-bottom:50px;
+	font-weight: 400;
+}
+.feature-bottom-content h2{
+	color: #fff;
+}
+
+
+
+
+
+/* slider area */
+
+.slider-button {
+
+}
+.slider-area {
+    position: relative;
+}
+.slider-button a i {
+	background-color: #fff;
+	border-radius: 50%;
+	color: #242328;
+	font-size: 37px;
+	height: 120px;
+	padding: 43px;
+	width: 120px;
+}
+
+.slider-area{
+	background:white;
+	background-size:cover;
+	background-position:center center;
+}
+.slider-area, .slider-area div {
+    height: 100%;
+}
+.slider-area div.slide-item-tablecell, .slider-area div.slide-item-tablecell div {
+    height: auto;
+}
+.slide-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.slide-item-table {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.header-area {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.logo p {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+
+/* mainmenu */
+
+.mainmenu {
+    padding-top: 50px;
+	float:right;
+}
+.mainmenu ul.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.mainmenu ul.navbar-nav li:hover a{
+	background:none;
+} 
+.getIn-touch-button a {
+    background: #f42267 none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.getIn-touch-button {
+    padding-top: 62px;
+}
+.single-slide-heading h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.slide-text p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.single-slide-heading {
+    bottom: 10px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.slide-text {
+    left: 0;
+    position: absolute;
+    top: 160px;
+    width: 100%;
+}
+
+
+/* features area */
+.features-area{
+	background-color:#fff;
+	padding-top:180px;
+	padding-bottom:100px;
+}
+.createApps-content p {
+	color: #8c8f94;
+	margin-bottom: 40px;
+}
+.discover-feature a {
+    border: 2px solid #f42267;
+    border-radius: 50px;
+    color: #f42267;
+    font-size: 14px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.discover-feature {
+    padding-top: 30px;
+}
+.discover-feature a span{
+	text-transform:none;
+}
+
+.feature-icon img {
+    padding-bottom: 20px;
+}
+.feature-icon h6 {
+    color: #222328;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+	font-weight:400;
+}
+.single-feature p {
+    color: #222328;
+}
+.single-feature {
+    padding-bottom: 70px;
+}
+
+
+
+
+/* features bottom area */
+.features-bottom-area {
+    background-color:#222328;
+}
+.feature-bottom-right {
+  padding-top: 150px;
+}
+.feature-bottom-icon-head h6, .rapture-startup-icon-head h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+	font-weight:400;
+}
+.feature-bottom-icon-head h6 {
+	color: #fff;
+}
+.rapture-startup-icon-head h6 {
+	color: #222328;
+}
+.feature-bottom-content p {
+  color: #8c8f94;
+}
+.view-button {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.view-button a {
+    background-color: #3b55e6;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+	text-decoration:none;
+}
+.feature-bottom-icon-head img {
+  float: left;
+  margin-right: 15px;
+}
+.single-feature-bottom {
+  padding-bottom: 70px;
+}
+.feature-bottom-content {
+  padding-top: 150px;
+}
+
+
+
+/* best of rapture area */
+.bestOf-rapture-area {
+	background-color: #f9f9f9;
+	padding: 100px 0;
+}
+.bestOf-rapture-text p {
+	color: #8c8f94;
+	margin-bottom: 70px;
+}
+.single-video img {
+	border-radius: 0px;
+}
+
+.singer-pic {
+    float: left;
+    margin-right: 15px;
+}
+.singer-pic img {
+    border-radius: 50%;
+}
+.video-text h4 {
+    color: #222328;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.video-text p {
+    color: #8c8f94;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+	float:left;
+}
+.single-video {
+    padding-bottom: 50px;
+}
+.video-text {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+
+/* rapture startup area */
+
+.rapture-startup-area {
+  background-color: #bec5cb;
+  background-image: url("img/rapture-startup-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 300px;
+  padding-top: 190px;
+}
+.rapture-startup-content p {
+  color: #3a3d4b;
+}
+
+
+
+/* footer area */
+.footer-area {
+  background-color: #222328;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.subscribe-area h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.single-widget h4 {
+  color: #fff;
+  font-family: "Droid Serif",serif;
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom:40px;
+}
+.widget-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.widget-menu ul li {
+    padding: 5px 0;
+}
+.widget-menu ul li a {
+    color: #8c8f94;
+    font-size: 16px;
+}
+
+.copyright-content p {
+    color: #fff;
+    font-size: 13px;
+}
+.copyright-content h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.copyright-content {
+    padding-top: 80px;
+}
+
+
+.subscribe-text {
+    border: 2px solid #4b4b4e;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+    width: 100%;
+}
+.subscribe-text form input[type="text"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+	width:300px;
+	margin-top:5px;
+}
+.subscribe-text form button {
+    background-color: #f42267;
+    border: 0 none;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.subscribe-area {
+    padding-bottom: 90px;
+}
