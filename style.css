@@ -99,7 +99,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .slider-area{
-	background:white;
+	
+	background: url(https://www.walkfree.org/wp-content/themes/icecreamcake/assets/images/partners-network-map.png) no-repeat center center  ;
 }
 .slider-area, .slider-area div {
     height: 100%;
