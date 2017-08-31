@@ -83,7 +83,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 /* slider area */
 
 .slider-button {
-
+    left: 44%;
+    right: 44%;
+    position: absolute;
+    top: 0;
 }
 .slider-area {
     position: relative;
@@ -99,8 +102,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .slider-area{
-	
-	background: url(partners-network-map.png) no-repeat center center  ;
+	background-image:url(hacker.jpg);
+	background-size:cover;
+	background-position:center center;
 }
 .slider-area, .slider-area div {
     height: 100%;
@@ -251,7 +255,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 .view-button {
     padding-top: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
 }
 .view-button a {
     background-color: #3b55e6;
@@ -277,7 +281,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 /* best of rapture area */
 .bestOf-rapture-area {
-	background-color: #f9f9f9;
+	background-color: #fff;
 	padding: 100px 0;
 }
 .bestOf-rapture-text p {
@@ -285,7 +289,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 	margin-bottom: 70px;
 }
 .single-video img {
-	border-radius: 0px;
+	border-radius: 5px;
 }
 
 .singer-pic {
@@ -320,15 +324,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 
 /* rapture startup area */
-
 .rapture-startup-area {
-  background-color: #bec5cb;
-  background-image: url("img/rapture-startup-bg.jpg");
-  background-position: center center;
-  background-size: cover;
-  padding-bottom: 300px;
   padding-top: 190px;
+  padding-bottom: 300px;
+  background-color:#bcc6c9;
+  
 }
+
 .rapture-startup-content p {
   color: #3a3d4b;
 }
@@ -397,7 +399,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     font-size: 16px;
     font-weight: 400;
 	width:300px;
-	margin-top:5px;
 }
 .subscribe-text form button {
     background-color: #f42267;
